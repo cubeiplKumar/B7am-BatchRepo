@@ -6,7 +6,8 @@ public class AddTwoNumbers {
 
       System.out.println("Sum of these numbers: "+sum);
    }
-   Scanner sc = new Scanner(System.in);
-        System.out.println("Enter First Number: ");
-        num1 = sc.nextInt();:
+System.out.println("Enter Second Number: ");
+        num2 = sc.nextInt();
+        sc.close();
+        
 }
