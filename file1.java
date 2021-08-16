@@ -9,4 +9,10 @@ public class AddTwoNumbers {
    Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number: ");
         num1 = sc.nextInt();:
+		//feature 300 changes
+		if(isPal(string))
+            System.out.println(string + " is a palindrome");
+        else
+            System.out.println(string + " is not a palindrome");
+    }
 }
